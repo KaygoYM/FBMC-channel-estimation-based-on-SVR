@@ -16,6 +16,7 @@
 
 % For perfect channel knowledge, FBMC and OFDM have the same BER (same number of subcarriers). However, FBMC requires less guard bands (and also does not include a CP) so that the spectral efficiency is higher!
 % We assume the same number of subcarriers (OFDM, FBMC) and no CP to make the BER comparision fair (same number of transmitted bits).
+% rewritten/reused by KAI
 %}
 clear;clc;
 close all;
