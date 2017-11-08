@@ -1,3 +1,4 @@
+%author:KAI
 function [BinaryDataStream_FBMC_Aux,xP_FBMC,x_FBMC_Aux,s_FBMC_Aux]= FBMC_signal(AuxiliaryMethod,FBMC,PAM,ChannelEstimation_FBMC)
     BinaryDataStream_FBMC_Aux = randi([0 1],AuxiliaryMethod.NrDataSymbols*log2(PAM.ModulationOrder),1);
     xD_FBMC_Aux = PAM.Bit2Symbol(BinaryDataStream_FBMC_Aux);    
