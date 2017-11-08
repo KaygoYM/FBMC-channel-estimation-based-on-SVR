@@ -1,3 +1,4 @@
+%author:KAI
 function h_FBMC_Aux = svminterp_real(index,hP_LS_FBMC_Aux,h,NrTime)
 x=index.';
 y=(hP_LS_FBMC_Aux).';
