@@ -229,4 +229,4 @@ legend({'FBMC Auxiliary','OFDM'});
 ylabel('Power Spectral Density (dB)');
 xlabel('Frequency (Hz)');
 
-save('temp_Cubic_real_50.mat');
+save('temp_linear_real_50.mat');
